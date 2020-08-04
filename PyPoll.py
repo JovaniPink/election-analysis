@@ -17,15 +17,14 @@ file_to_load = os.path.join("resources", "election_results.csv")
 # Create a filename variable to a direct or indirect of indirect path to the file.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
-# 1. The total number of votes cast
+# Initialize a total vote counter.
 total_votes = 0
 
-# Candidate Options
+# Candidate Options and candidate votes
 candidate_options = []
-# Candidate Count
 candidate_votes = {}
 
-# Winning Candidate and Winning Count Tracker
+# Track the winning candidate, vote count, and percentage.
 winning_candidate = ""
 winning_count = 0
 winning_percentage = 0
@@ -84,6 +83,7 @@ for candidate_name in candidate_votes:
         # And, set the winning_candidate equal to the candidate's name.
         winning_candidate = candidate_name
 
+# Print the winning candidates' results to the terminal.
 winning_candidate_summary = (
     f"-------------------------\n"
     f"Winner: {winning_candidate}\n"
@@ -97,10 +97,18 @@ print(winning_candidate_summary)
 #   terminal.
 print(f"{candidate_name}: {vote_percentage:.1f}% ({votes:,})\n")
 
-# # Using the with statement open the file as a text file.
-# with open(file_to_save, 'w') as txt_file:
-#     # Write three countines to the file.
-#     txt_file.write("Arapahoe", "Denver","Jefferson")
+# Using the with statement open the file as a text file.
+with open(file_to_save, "w") as txt_file:
+    # Print the final vote count to the terminal
+    election_results = (
+        f"\nElection Results\n"
+        f"------------------------\n"
+        f"Total Votes: {total_votes:,}\n"
+        f"------------------------\n"
+    )
+    print(election_results, end="")
+    # Save the final vote count to the text file.
+    txt_file.write(election_results)
 
 # # Import the datetime class from the datetime module.
 # import datetime as dt
