@@ -79,7 +79,7 @@ Winning Percentage: 73.8%
 
 ### Image of the looping logic to achieve the total number count.
 
-![logic-loop]("resources/logic-loop.png")
+![logic-loop](resources/logic-loop.png)
 
 ### Election Audit Results
 
@@ -107,7 +107,7 @@ With the out file located in the resources folder we answer the following points
 
 The Election Commission has asked for further analysis into the election data. The questions on the calculate the voter turnout for each county that voted in the congressional district. How to calculate the percentage of votes each county contributed to the election. We also asked to determine which county had the largest turnout.
 
-![out-put-file]("resources/output-file.png")
+![out-put-file](resources/output-file.png)
 
 ## Election Audit Summary
 
