@@ -103,6 +103,8 @@ With the out file located in the resources folder we answer the following points
   - Winning Vote Count: 272,892
   - Winning Percentage: 73.8%
 
+Colorado saw three counties tally up to 369,711 votes. The biggest of the counties with a 82.8% was Denver. We processed the votes for three candidates of Charles, Diana, and Raymon. With 73.8% of the votes towards Diana DeGette, that is 272,892 of the 369,711 total votes.
+
 ### Added Audit Analysis
 
 The Election Commission has asked for further analysis into the election data. The questions on the calculate the voter turnout for each county that voted in the congressional district. How to calculate the percentage of votes each county contributed to the election. We also asked to determine which county had the largest turnout.
