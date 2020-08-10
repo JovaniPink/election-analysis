@@ -1,14 +1,24 @@
 # -*- coding: UTF-8 -*-
 """PyPoll Homework Challenge starter code."""
 
-# Add our dependencies.
+# Add our dependencies that we will be using to achieve our goal of tally count.
+# The csv module implements classes to read and write tabular data in CSV format.
 import csv
+
+# The os module provides a portable way of using operating system dependent functionality.
 import os
 
+# The os.path module implements some useful functions on pathnames.
 # Add a variable to load a file from a path.
 file_to_load = os.path.join("resources", "election_results.csv")
 # Add a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
+
+# Start initial this module's variables that we will be using through out the module
+# 
+#
+#
+#
 
 # Initialize a total vote counter.
 total_votes = 0
